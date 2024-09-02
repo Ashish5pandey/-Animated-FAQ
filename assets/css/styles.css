@@ -1,0 +1,99 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans"; /* Applying the imported font */
+}
+
+/* Styling for the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    background: url(../img/img.jpg); /* Adding background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styling for the main container */
+.container-box {
+    width: 600px;
+    position: relative;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px); /* Creating a blurred effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: px;
+    padding: 30px 40px;
+}
+
+p.checkout {
+    text-align: center;
+    color: #ff5e01;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p.connectinfo {
+    text-align: center;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* Styling for the heading */
+.container-box  h1 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.accordion {
+    background-color: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+    font-size: 19px;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* Styling for code blocks */
+code {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: px; /* Specify border radius value */
+
+}
+
